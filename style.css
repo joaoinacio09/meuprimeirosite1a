@@ -31,4 +31,25 @@ section {
  p {
      font-size: 20px;
  }
+  .categoria-videos {
+      display: flex;
+      overflow: auto;
+      gap: 10px;
+    }
+  
+.outrosvideos{    
+  padding-left: 20px;
+  padding-left: 20px;
+  margin-top: 50px;
+} 
+
+.categoria-videos img {
+  display: flex;
+  height: 200px;  
+}
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 3px solid black; 
+}
 
